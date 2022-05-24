@@ -12,7 +12,7 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
 
 def ola_mundo():
     print ("Olá Mundo")
-ola_mundo()
+
 
 
     
