@@ -51,4 +51,16 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 
 def decompor_numero(numero: int):
-    """Escreva aqui em baixo a sua solução"""
+    if numero > 1000:
+        print("'O número precisa ser menor que 1000'")
+    elif: numero<0:
+        print("'O número precisa ser positivo'")
+
+    unidade = numero % 10
+    numero = (numero - unidade)/10
+    dezena = numero % 10
+    numero = (numero - dezena)/10
+    centena = numero
+    dezena = int(dezena)
+    centena = int(centena)
+   
