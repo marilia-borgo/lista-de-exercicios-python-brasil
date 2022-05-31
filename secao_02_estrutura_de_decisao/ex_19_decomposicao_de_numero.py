@@ -55,12 +55,16 @@ def decompor_numero(numero: int):
         print("'O número precisa ser menor que 1000'")
     elif: numero<0:
         print("'O número precisa ser positivo'")
-
-    unidade = numero % 10
-    numero = (numero - unidade)/10
-    dezena = numero % 10
-    numero = (numero - dezena)/10
-    centena = numero
-    dezena = int(dezena)
-    centena = int(centena)
-   
+    elif numero>10:
+       
+    elif numero>=10 and numro>==99:
+      
+    elif numero>99:
+        unidade = numero % 10
+        numero = (numero - unidade)/10
+        dezena = numero % 10
+        numero = (numero - dezena)/10
+        centena = numero
+        dezena = int(dezena)
+        centena = int(centena)
+    
