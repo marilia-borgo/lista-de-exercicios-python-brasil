@@ -15,7 +15,3 @@ def escreva_um_numero():
 
     numero = input ('digite um número')
     print (f'O número informado foi {numero}')
-
-    numero = input ('digite um número')
-    print (f'O número informado foi {numero}')
-
