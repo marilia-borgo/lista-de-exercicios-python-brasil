@@ -17,6 +17,8 @@ Mostrar apenas valor inteiro da temperatura
 
 
 def transformar_para_fahrenheit():
+    """Escreva aqui em baixo a sua solução"""
+
     c = int(input ('digite a temperatura:'))
     f = (c*1.8) + 32
     print ("Essa temperatura é de", "%.0f" % f,"Fahrenheit")

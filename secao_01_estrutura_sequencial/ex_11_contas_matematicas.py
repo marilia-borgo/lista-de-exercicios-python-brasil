@@ -21,6 +21,8 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 
 
 def calcular_formulas():
+    """Escreva aqui em baixo a sua solução"""
+
     num_int_1 = int (input('digite um número inteiro'))
     num_int_2 = int (input('digite outro número inteiro'))
     num_float = float (input('digite um número real'))
