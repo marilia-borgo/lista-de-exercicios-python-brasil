@@ -18,6 +18,4 @@ Mostrar apenas valor inteiro da temperatura
 
 
 def transformar_para_celsius():
-    f = int(input ('digite a temperatura:'))
-    c = 5*((f-32)/9)
-    print ("Essa temperatura é de", "%.0f" % c,"Celsius")
+    
