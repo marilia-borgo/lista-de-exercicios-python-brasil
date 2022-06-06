@@ -32,5 +32,20 @@ até que o usuário informe um valor válido.
 """
 
 
+from logging import exception
+
+
 def obter_numero_valido():
     """Escreva aqui em baixo a sua solução"""
+    while True:
+        
+        nota = input("insira a nota:")
+        try:
+            nota = int(nota)
+        except ValueError:
+            print(f'Número inválido: {nota}')
+        else:
+            if nota >= 0 and nota < 11:
+                return nota
+            else:
+                print(f'Número inválido: {nota}')
