@@ -37,3 +37,4 @@ def calcular_estatisticas(*numeros) -> str:
         if verdade == True:
             n.sort()
             print(f"'Maior valor: {n[-1]}. Menor valor: {n[0]}. Soma: {sum(n)}'")
+            
