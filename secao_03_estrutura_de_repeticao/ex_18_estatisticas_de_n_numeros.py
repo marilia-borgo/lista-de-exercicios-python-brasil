@@ -22,8 +22,10 @@ def calcular_estatisticas(*numeros) -> str:
     if conta == []:
         return 'Maior valor: não existe. Menor valor: não existe. Soma: 0'
 
+
     else:
         conta.sort()
         return f'Maior valor: {conta[-1]}. Menor valor: {conta[0]}. Soma: {sum(conta)}'
+
 
     
