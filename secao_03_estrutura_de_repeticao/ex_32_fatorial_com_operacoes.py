@@ -24,5 +24,24 @@ Ex.: 5!=5.4.3.2.1=120
 """
 
 
+from calendar import c
+
+
 def calcular_fatorial(n: int):
     """Escreva aqui em baixo a sua solução"""
+    cont = n 
+    f = 1 
+         
+    print(f"Fatorial de {n}:")
+    print ('{}! = '.format(n), end='')
+    while cont >0:
+        print('{}'.format(cont), end='')
+        print(' . ' if cont> 1 else ' = ', end='')
+        f *= cont 
+        cont -= 1 
+    print('{}'.format(f))
+	
+
+
+   
+
