@@ -18,4 +18,4 @@ Mostrar a área com 1 casa decimal.
 
 
 def calcular_peso_ideal():
-    """Escreva aqui em baixo a sua solução"""
+    

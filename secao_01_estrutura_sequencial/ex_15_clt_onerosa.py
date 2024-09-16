@@ -26,4 +26,4 @@ Mostrar os resultados com duas casas decimais
 
 
 def calcular_assalto_no_salario():
-    """Escreva aqui em baixo a sua solução"""
+

@@ -25,4 +25,4 @@ Mostrar o peso e multa com duas casas decimais
 
 
 def calcular_peso_excedente_e_multa():
-    """Escreva aqui em baixo a sua solução"""
+    

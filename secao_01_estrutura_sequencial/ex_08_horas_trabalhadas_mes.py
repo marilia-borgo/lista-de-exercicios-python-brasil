@@ -16,4 +16,4 @@ Mostrar salário com duas casas decimais
 
 
 def calcular_salario():
-    """Escreva aqui em baixo a sua solução"""
+    

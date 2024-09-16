@@ -17,4 +17,5 @@ Mostrar apenas valor inteiro da temperatura
 
 
 def transformar_para_fahrenheit():
-    """Escreva aqui em baixo a sua solução"""
+   
+  

@@ -29,5 +29,93 @@ Mostre o restultado com duas casas decimais
 """
 
 
+from secao_02_estrutura_de_decisao.ex_02_positivo_ou_negativo import positivo_ou_negativo
+
+
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
+    if operacao == '+': 
+      result=n_1+n_2
+      if result%2 == 0:
+        par_impar="par"
+      else:
+        par_impar="impar"
+      if result>=0:
+        positivo_negativo="positivo"
+      else:
+        positivo_negativo="negativo"
+
+      if result//1 == result:
+        decimal_inteiro="inteiro"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {par_impar}, {positivo_negativo} e {decimal_inteiro}.")
+      else:
+        decimal_inteiro="decimal"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {positivo_negativo} e {decimal_inteiro}.")
+    elif operacao == '-': 
+      result=n_1-n_2
+      if result%2 == 0:
+        par_impar="par"
+      else:
+        par_impar="impar"
+      if result>=0:
+        positivo_negativo="positivo"
+      else:
+        positivo_negativo="negativo"
+
+      if result//1 == result:
+        decimal_inteiro="inteiro"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {par_impar}, {positivo_negativo} e {decimal_inteiro}.")
+      else:
+        decimal_inteiro="decimal"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {positivo_negativo} e {decimal_inteiro}.")
+    elif operacao == '*': 
+      result=n_1*n_2
+      if result%2 == 0:
+        par_impar="par"
+      else:
+        par_impar="impar"
+      
+      if result>=0:
+        positivo_negativo="positivo"
+      else:
+        positivo_negativo="negativo"
+      if result == 0:
+        positivo_negativo="neutro"
+      if result//1 == result:
+        decimal_inteiro="inteiro"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {par_impar}, {positivo_negativo} e {decimal_inteiro}.")
+      else:
+        decimal_inteiro="decimal"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {positivo_negativo} e {decimal_inteiro}.")
+    elif operacao == '/': 
+      result=n_1/n_2
+      if result%2 == 0:
+        par_impar="par"
+      else:
+        par_impar="impar"
+      if result>=0:
+        positivo_negativo="positivo"
+      else:
+        positivo_negativo="negativo"
+
+      if result//1 == result:
+        decimal_inteiro="inteiro"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {par_impar}, {positivo_negativo} e {decimal_inteiro}.")
+      else:
+        decimal_inteiro="decimal"
+        print(f"Resultado: {result:.2f}")
+        print(f"Número é {positivo_negativo} e {decimal_inteiro}.")
+
+
+
+
+
+
+    

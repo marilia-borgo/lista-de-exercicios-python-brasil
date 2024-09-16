@@ -21,6 +21,4 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 
 
 def calcular_formulas():
-    """Escreva aqui em baixo a sua solução"""
-
-
+  

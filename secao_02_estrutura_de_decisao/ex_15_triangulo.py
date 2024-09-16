@@ -25,5 +25,15 @@ Triângulo Escaleno: três lados diferentes;
 """
 
 
-def classificar_triangulo(lado_a: float, lado_b: float, lado_c: float):
-    """Escreva aqui em baixo a sua solução"""
+
+def classificar_trinagulo(lado_a: float, lado_b: float, lado_c: float):
+      if (lado_a+lado_b)>lado_c and (lado_b+lado_c)>lado_a and (lado_c+lado_a)>lado_b:
+            if lado_a == lado_b ==lado_c:
+                print("'Triângulo Equilátero'")
+            elif lado_a == lado_b or lado_b ==lado_c or lado_a == lado_c:
+                print("'Triângulo Isósceles'")
+            elif lado_a != lado_b or lado_b !=lado_c or lado_a != lado_c:
+                print("'Triângulo Escaleno'")
+      else:
+        print("'Não é um triângulo'")
+
